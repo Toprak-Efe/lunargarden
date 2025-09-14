@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "Linear Algebra.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "Linear Algebra"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "Linear Algebra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for index"
+              "title": "Backlinks for Linear Algebra"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "Linear Algebra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from index"
+              "title": "Outgoing links from Linear Algebra"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md",
+                "file": "Linear Algebra.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of index"
+              "title": "Outline of Linear Algebra"
             }
           }
         ]
@@ -172,10 +172,12 @@
   },
   "active": "fb7f96210028c0af",
   "lastOpenFiles": [
+    "Grace Gao - Robust Autonomous Vehicle Localization using GPS.md",
+    "Graph Isomorphism via Discrete Quantum Walk.md",
+    "index.md",
     "Linear Algebra.md",
     "Algorithm Analysis.md",
     "Computer Networks.md",
-    "Grace Gao - Robust Autonomous Vehicle Localization using GPS.md",
     "Semiconductor Devices and Analog Electronics.md",
     "Wavelets.md",
     "Probability.md",
@@ -184,8 +186,6 @@
     "Low Pass Filters.md",
     "HeapGraph.canvas",
     "Foxhunt Amateur Radio Hunt.md",
-    "Graph Isomorphism via Discrete Quantum Walk.md",
-    "Heap.md",
-    "index.md"
+    "Heap.md"
   ]
 }

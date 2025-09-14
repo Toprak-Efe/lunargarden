@@ -485,7 +485,10 @@ ib, &-b \\
 b, &ib
 \end{bmatrix}
 $$
-$$\begin{bmatrix}
+
+
+$$
+\begin{bmatrix}
 ib, &-b \\
 b, &ib
 \end{bmatrix}
