@@ -25,9 +25,5 @@ jobs:
         
       - name: Commit and Push if Changed
         run: |
-          if ! git diff --quiet --cached; then
-            git commit -m "Automated: Sync lunargarden submodule"
-            git push
-          else
-            echo "No changes to submodule. Nothing to commit."
-          fi
+          git commit -m "Automated: Sync lunargarden submodule"
+          git push
