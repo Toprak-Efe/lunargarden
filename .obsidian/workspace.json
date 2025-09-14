@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linear Algebra.md",
+                "file": "Numerical Methods.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Linear Algebra"
+              "title": "Numerical Methods"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linear Algebra.md",
+                "file": "Numerical Methods.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Linear Algebra"
+              "title": "Backlinks for Numerical Methods"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linear Algebra.md",
+                "file": "Numerical Methods.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Linear Algebra"
+              "title": "Outgoing links from Numerical Methods"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linear Algebra.md",
+                "file": "Numerical Methods.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Linear Algebra"
+              "title": "Outline of Numerical Methods"
             }
           }
         ]
@@ -172,10 +172,10 @@
   },
   "active": "fb7f96210028c0af",
   "lastOpenFiles": [
+    "Linear Algebra.md",
     "Grace Gao - Robust Autonomous Vehicle Localization using GPS.md",
     "Graph Isomorphism via Discrete Quantum Walk.md",
     "index.md",
-    "Linear Algebra.md",
     "Algorithm Analysis.md",
     "Computer Networks.md",
     "Semiconductor Devices and Analog Electronics.md",
