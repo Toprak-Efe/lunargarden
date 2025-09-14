@@ -62,4 +62,3 @@ Most rovers don't go long distances during autonomous driving, Endurance Mission
 This is intended to be done in the South Pole, the reason is the scientific value inherently located in the region, which might give insights into the  geological development of the geo-satellite in great quantities. Especially, it might be to analyze the water content present.
 
 The mission concept begins with a Lunar pathfinder satellite for communication, the research is currently done on whether or a navigational payload from the satellite can help the rover navigate by itself. Within a $24$ hour window an outage graph was created.
-![[Pasted image 20231223212724.png]]

@@ -7,7 +7,6 @@
 	- Sample Space, S: collection of all possible outcomes (sample points) of an experiment.
 	- Event: a collection of sample points.
 - Operations with Events
-	- ![[Pasted image 20240117133446.png]]
 - Properties of Events
 	1. Mutual Exclusiveness - Intersection of events is the null set $(A_{i}\cap A_{j}=\emptyset, \text{for all } i\neq j)$
 	2. Collective Exhaustiveness (C.E.) - union of events is sample space $(A_{1}\cup A_{2}\cup\dots\cup A_{3} = S)$

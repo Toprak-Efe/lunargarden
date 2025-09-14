@@ -2,11 +2,6 @@
 Heap is an adorable data structure that implements the heapsort sorting algorithm, which uses a paradigm different than that o merge sort and insertion sort.
 
 It is essentially an array visualized as a nearly complete binary tree. Below is an array of 10 elements.
-
-| **$16$** | **$14$** | **$10$** | **$8$** | **$7$** | **$9$** | **$3$** | **$2$** | **$4$** | **$1$** |
-| ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
-We visualize the above array as a **nearly complete binary tree**.
-![[HeapGraph.canvas|HeapGraph]]
 # Types of Heap
 There are two sub-types of heap which are classified by the order of their terms within the imaginative binary tree.
 * Max-Heap is a type of heap whose any element's key is larger than it's children.

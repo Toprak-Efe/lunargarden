@@ -33,7 +33,6 @@ The "brain" of the computer is the CPU. It fetches instructions from memory and 
 
 > [!IMPORTANT] Superscalar CPU
 > Even more advanced than a pipeline design is a superscalar CPU. In this design, multiple execution units are present, for example, one for integer arithmetic, one for floating-point arithmetic, and one for Boolean operations. Two or more instructions are fetched at once, decoded, and dumped into a holding buffer until they can be executed.
-> ![[Diagram 50.svg|Fig 1. A block diagram exhibiting the pipeline for the superscalar CPU.]]
 
 > [!INFO] Multithreading
 > - Multithreading allows the CPU to hold the state of two different threads and then switch back and forth on a nanosecond time scale.
@@ -44,14 +43,12 @@ The "brain" of the computer is the CPU. It fetches instructions from memory and 
 > - Many CPU chips now have four, eight, or more complete processors or cores on them. The multicore chips in Fig 2. effectively carry four minichips on them, each with its own independent CPU.
 > - Some processors, like Intel Xeon Phi and the Tilera TilePro, already sport more than 60 cores on a single chip.
 > - Making use of such a multicore chip will definitely require a multiprocessor operating system.
-> ![[Diagram 51.svg|Fig 2. A quad core chip with a shared L2 cache and another quad-core chip with separate L2 caches.]]
 
 > [!IMPORTANT] Hyperthreading
 > Officially known as Hyper-Threading Technology (HTT) by Intel, is a proprietary implementation of Simultaneous MUltithreading (SMT). It allows a single core to appear as two or more logical cores to the operating system. This architecture takes advantage of the **superscalar** architecture.
 
 ### Memory
 The second major component in any computer is the memory. Ideally, a memory should be extremely fast (faster than executing an instruction so that the CPU is not held up by the memory), abundantly large, and dirt cheap. No current technology satisfies all of these goals, so a different approach is taken. The memory system is constructed as a hierarchy of layers as shown in Fig 3. The top layers have higher speed, smaller capacity, and greater cost per bit than the lower ones, often by factors of a billion or more.
-![[Diagram 52.svg|Fig 3. A typical memory hierarchy, with numbers being extremely rough approximation.]]
 
 > [!IMPORTANT] Registers
 > The top layer consists of the registers internal to the CPU. They are made of the same material as the CPU and are thus just as fast as the CPU. Consequently, there is no delay in accessing them. The storage capacity available in them is typically 32 × 32 bits on a 32-bit CPU and 64 × 64 bits on a 64-bit CPU. Less than 1 KB in both cases. Programs must manage the registers (i.e., decide what to keep in them) themselves, in software.
@@ -76,7 +73,6 @@ I/O devices generally consist of two parts:
 	- The controller is a chip or a set of chips that physically controls the device. It accepts commands from the operating system, for example, to read data from the device, and carries them out.
 - The Device
 	- The I/O device itself, an electronic or an electromechanical apparatus that is useful in some way. For example, disks, serial communication peripherals, more complex hardware systems, etc.
-![[Diagram 53.svg|Fig 4. The steps instarting an I/O device and getting an interrupt.]]
 ### Buses
 
 > [!IMPORTANT] Industry Standard Architecture Bus (ISA)
@@ -106,8 +102,6 @@ This system quickly lead to conflicts and clashes which made handling peripheral
 What plug and play does is have the system automatically collect information about the I/O devices, centrally assign interrupt levels and I/O addresses, and then tell each card what its numbers are. This work is closely related to booting the computer.
 ### Motherboard
 A motherboard is the main printed circuit board (PCB) in a computer. The motherboard is a computer's central communications backbone connectivity point, through which all components and external computer hardware connect.
-
-![[Diagram 54.svg|Fig 5. Typical motherboard configuration.]]
 ### Booting
 
 > [!IMPORTANT] Booting The Computer
@@ -164,22 +158,16 @@ Processes can create child processes that operate as separate but softly bound c
 Virtualization can take place in two forms:
 - Runtimes (e.g. Java Runtime Env.) shielding OS
 	-  Process VM: Virtualization for a single process.
-	- ![[Diagram 40.svg]]
 - Virtual Machine Monitors (VMM) shielding HW
 	- VMM Interface offered to different programs (therefore it is possible to run multiple & different OS), e.g. Xen and VmWare
-	- ![[Diagram 41.svg]]
-
 ### Hypervisors
 Hypervisors are Virtual Machine Monitors, they are virtualization software that come in two types.
-![[Diagram 42.svg]]
 
 > [!Defintion] Type 1
 > The hardware directly runs the embedded hypervisor firmware. The operating systems are loaded and run consequently as individual processes after the bootloader enters into the hypervisor.
 
 > [!DEFINITION] Type 2
 > A host OS runs the Hypervisor in the application space, which creates a virtual environment to run the guest OS's in.
-### Application Containers vs. VM
-![[Pasted image 20250304203942.png]]
 # Processes
 
 ## Process Management
@@ -205,7 +193,6 @@ The reliability of a system has different metrics to measure with, and in these 
 > $$
 
 Reliability on the other hand is expressed by several terms such as  Mean Time to Failure (**MTTF**), Mean Time to Recover MTTR, Mean Time to Data Loss (**MTTDL**). The calculation of these terms are done for the graph below.
-![[efe 2.png]]
 Where the first period of failure and succession is $x_1, y_1$ respectively, and the following terms being $x_2, y_2$: 
 > [!DEFINITION] Mean Time to Failure
 > $$

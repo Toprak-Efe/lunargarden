@@ -28,7 +28,7 @@ $$
 $$
 A cosine wave multiplied by a bell curve. This is the real part of the Morlet Wavelet, which is in actuality a complex signal. Within Fourier Transform, we transform the time domain representation of the signal $y(t)$ into the frequency domain representation, $\hat{y}(f)$.
 
-```run-python
+```python
 import matplotlib.pyplot as plt
 import numpy as np
 import math
@@ -44,7 +44,7 @@ plt.show()
 Much like the Fourier Transform's description of a function as a composition of sinusoidal/cosinusoidal waves, we can mathematically describe a function as a composition of Morlet Wavelets with differing scaling/shifting operations.
 
 Before we elaborate on what a Wavelet Transform is, let's see the resulting scalogram from a Wavelet Transformation.
-```run-python
+```python
 import numpy as np
 import matplotlib.pyplot as plt
 import math

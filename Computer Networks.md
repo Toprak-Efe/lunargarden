@@ -73,7 +73,6 @@ Specific messages sent and specific actions taken when these messages are receiv
 > 1. ***Format of messages***, sent & received (among hosts/network entities)
 > 2. ***Actions taken*** on message transmission & reception.
 
-![[Pasted image 20250204221243.png|Fig 1. An image showing difference between machine and human communication.]]
 ## Network Edge
 ### End Systems (Hosts)
 - Run application programs

@@ -25,18 +25,6 @@ However, in practice, such filters are impossible, and we must approach the same
 ## Butterworth Approximation
 #butterworth
 Named after an engineer called Butterworth, this approximation consists of a flat passband that gradually declines towards the cutoff frequency, after which the stop band dominates with a roll-off measured in units of $\text{dB/decade}$ or $\text{dB/octave}$. There are no ripples in both the pass and the stopband.
---- start-multi-column: ID_d6n3
-```column-settings
-Number of Columns: 2
-Largest Column: standard
-```
-![[Pasted image 20241126155756.png]]
-
---- column-break ---
-
-![[Pasted image 20241126155552.png]]
-
---- end-multi-column
 > [!IMPORTANT] Transfer Function
 > The transfer function of a butterworth filter is as follows:
 > $$

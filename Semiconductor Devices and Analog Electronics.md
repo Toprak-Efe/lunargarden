@@ -1,13 +1,4 @@
 #diodes #capacitors #transistors #analog #ltspice
-> [!WARNING] Details:
-> Thursday,
-> - 12:55 — 15:10, Laboratory
-> 	-> [Mateusz Lorkiewicz](https://usosweb.put.poznan.pl/kontroler.php?_action=katalog2/osoby/pokazOsobe&os_id=2274),
-> 	-> [Room 013,](https://usosweb.put.poznan.pl/kontroler.php?_action=katalog2/jednostki/pokazSale&sala_id=265) [building no. A25](https://usosweb.put.poznan.pl/kontroler.php?_action=katalog2/jednostki/pokazBudynek&bud_kod=A25)
-> Friday,
-> - 9:45 — 11:15
-> 	-> [Krzysztof Klimaszewski](https://usosweb.put.poznan.pl/kontroler.php?_action=katalog2/osoby/pokazOsobe&os_id=1497),
-> 	-> [Room 114,](https://usosweb.put.poznan.pl/kontroler.php?_action=katalog2/jednostki/pokazSale&sala_id=176) [building no. A25](https://usosweb.put.poznan.pl/kontroler.php?_action=katalog2/jednostki/pokazBudynek&bud_kod=A25)
 # Introduction
 #ltspice 
 
@@ -22,7 +13,7 @@ The basic passive components are:
 3. Inductors,
 ## Resistors
 #resistors
-![[Diagram 33.svg|Fig 1. Resistor Schematic Symbol]]
+
 The most important parameters of a resistor are the following:
 - Resistance - Opposition to the current flow.
 - Tolerance - The initial accuracy of the resistance value.
@@ -34,22 +25,18 @@ The most important parameters of a resistor are the following:
 > It is very important to use the resistors according to the limiting values of maximal power and voltage. Resistor that dissipates too much power will burn, and the resistor experiencing too high voltage may be damaged and shorted.
 
 Apart from the desirable element of resistance, all the resistors exhibit parasitic capacitance and inductance, that is they behave not like a simple resistor, but more like a complex connection of resistance, capacitance and inductances, as shown below.
-![[Diagram 34.svg|Fig 2. Parasitic elements of a real life resistor.]]
 Normally, the values of capacitance and inductances are very low, but they need to be taken into  consideration in high frequency circuits.
 The parasitic elements values, as well as other properties of the resistors depend on the  technology that was used to manufacture the resistor.
 ### Carbon Volume Resistors
 > [!DEFINITION] Carbon Volume
 > Very old technology, the resistor is a small pipe filled with carbon resistance compound. Those resistors typically have inaccurate resistance values, produce  much electrical noise, but can dissipate bigger powers when compared to other resistors of similar size. Rare type nowadays.
-![[Pasted image 20250107175724.png|Fig 3. Carbon Volume Resistors]]
 ### Carbon Fim Resistors
 > [!DEFINITION] Carbon Film
 > Old technology, the resistor is a small ceramic pipe with carbon resistance compound deposited on its surface. Those resistors typically have mediocre accuracy and produce much electrical noise. They are very cheap and are still popular in less demanding applications.
-![[Pasted image 20250107175821.png|Fig 4. Carbon Film Resistors]]
 ### Metal Film Resistors
 
 > [!DEFINITION] Metal Film
 > The resistor is a small ceramic pipe with metalized resistance alloy deposited on its surface. Those resistors typically have acceptable accuracy and produce less electrical noise than carbon types. They look very similar to carbon film resistors.
-![[Pasted image 20250107175925.png|Fig 5. Metal Film Resistor]]
 ### Thick Film Resistors
 > [!DEFINITION] Thick Film
 > The resistor is a small ceramic slab with thick (~0.1mm) resistive  layer on its surface, deposited in a form of paste and baked. Those resistors typically have acceptable accuracy. They are very popular due to the fact that most modern (so called surface mount – SMD – resistors) are manufactured in this technology, and therefore are the cheapest resistors on the market.
@@ -68,7 +55,6 @@ The parasitic elements values, as well as other properties of the resistors depe
 ## Capacitors
 #capacitors 
 There are different types of capacitors with very different properties. Not every type of cpaacitor is used in specific applications, and some capacaitors need to be connected to the circuit in a certain way, observing their internal polarity.
-![[Diagram 35.svg|Fig 7. Schematic symbol for capacitors.]]
 The operation of the capacitor is described by the following formula:
 $$
 I = C \frac{dU}{dt}
@@ -91,7 +77,6 @@ Apart from capacitance, there are other characteristics of a capacitor.
 - Dissipation, ESR (Equivalent Series Resistance) - An ideal capacitor does not dissipate any power. In reality, however, the internal resistances do dissipate power; this is usually a very undesirable effect. Large dissipation limits the use of capacitors in applications where large spikes of current are expected to flow in or out of capacitor and increases the impedance of the capacitor.
 
 > [!EXAMPLE] Example Capacitor
-> ![[Pasted image 20250107183011.png|Fig 8. Example capacitor]]
 > For the capacitor above, the basic properties are as follows:
 > - Capacitance of $100\text{nF}$,
 > - Tolerance of $\pm5\%$, in temperatures $-55^\circ\text{C}$ to $105^\circ\text{C}$.
@@ -99,7 +84,6 @@ Apart from capacitance, there are other characteristics of a capacitor.
 > - Dissipation factor (tg$\delta$)<$250\cdot 10^{-4}$ for frequencies below $100\text{kHz}$.
 
 Apart from the desirable element of capacitance, all the capacitors exhibit parasitic resistance and inductance, that is they behave not like a simple capacitor, but more like a complex connection of resistances, capacitance and inductance.
-![[Diagram 36.svg|Fig 9. Parasitic elements of a real life capacitor.]]
 In many circumstances, the parasitic resistances and inductances have to be taken into account, even in low frequency or DC applications, due to leakage (modeled as the resistor parallel to the capacitor). For the capacitor from the previous photograph, the manufacturer specifies inductance of 7nH plus 1nH for each 1mm of leads and capacitor length.
 
 > [!NOTE] Capacitance Values
@@ -110,28 +94,23 @@ Similarly to resistors, capacitors are manufactured with capacitances of a given
 
 > [!DEFINITION] Foil
 > The foil capacitors are made with the use of two conducting stripes of metal insulated with a plastic foil. The plastic used influences the properties of capacitors significantly. They have a limited range of capacitance, usually up to several tens of microfarads. They are successfully used in DC, low and medium frequency applications.
-> ![[Pasted image 20250107184410.png|Fig 10. Foil capacitors.]]
 ### Ceramic Capacitors
 #ceramic
 
 > [!DEFINITION] Ceramic
 > Ceramic capacitors are currently the most popular type, due to the ease of manufacture in surface-mount form. The capacitance range is almost the same as for foil capacitors, with very low values below 1pF possible, as well as ever-extending highest capacity limit, for  contemporary parts – several tens of microfarads. This type of capacitors is usable in all types of circuits, even for high frequencies and high voltages. There are ceramic capacitors with specific temperature coefficients, positive (capacitance grows as the temperature increases) or negative (capacitance falls as the temperature rises) – it is usable for compensation of temperature variations of different precise circuits
-> ![[Pasted image 20250107184459.png|Fig 11. Ceramic capacitors.]]
 ### Electrolytic Capacitors
 #electrolytic
 
 > [!DEFINITION] Electrolytic
 > The electrolytic capacitors have a very distinctive feature – they are polarized. This means that they can be inserted in circuit only in a specific way that ensures proper voltage polarity. For special purposes, there are, however, non-polarized electrolytic capacitors, but they are rare and expensive. One more important property of electrolytic capacitors is  that they can lose capacitance with time, and the process is sped up with the temperature. The popular brands of capacitors are guaranteed to work and maintain their specified parameters  only for a few thousands hours.
-> ![[Pasted image 20250107184601.png|Fig 12. Electrolytic Capacitors]] 
 ### Variable Capacitors
 
 > [!DEFINITION] Variable
 > Apart from regular capacitors, there are also variable capacitors, sometimes called as trimmers. Their main use is in high frequency circuits and radios. In some applications (such as radio receivers) they are being replaced by other, cheaper to manufacture and easier to adjust  components.
-> ![[Pasted image 20250107184735.png|Fig 13. Variable capacitors.]]
 ## Inductors
 #inductors
 While not so frequently used as resistors and capacitors, they are essential components in some applications, like power  conversion and in radio frequency circuits. The inductors, compared to capacitors and resistors, are more often made to order, due to their specific properties that must be adjusted for certain application. The very distinctive and important group of inductive components are transformers, that are constituted by at least two separate inductors that are magnetically coupled to each other. The area of their uses is power supplies and, less frequently, radio frequency circuits.
-![[Diagram 37.svg|Fig 14. Schematic symbols for the inductor.]]
 The operation of the inductor is described by the following formula.
 $$
 U = L\frac{dI}{dt}
@@ -162,8 +141,6 @@ Basic parameters of inductors are the following:
 > - Maximum current $165\text{mA}.$
 
 For inductors it is very important to consider the parasitance of the component, in the form of unwanted resistance and capacitance.
-![[Diagram 38.svg|Fig 15. Schematic representation of the parasitic elements within an inductor.]]
-
 # Semiconductor Physics
 ## Doping
 
@@ -183,7 +160,6 @@ $$
 $$
 For some specific applications and under certain assumptions, it is, however, possible to approximate the relationships with linear equations where it is desirable.
 A diode has two electrodes, anode and cathode, as denoted on the following figure:
-![[Diagram 39.svg|Fig 16. The schematic symbol of the diode, with anode and cathode marked.]]
 In the most basic way, the operation of a diode (so called ideal diode) can be summarized as the following:
 > [!EXPLANATION] Ideal Diode Behavior
 > For an ideal diode, the current can flow in only one direction – from anode to cathode. In  the opposite direction, no current can flow. In practice – there are no ideal diodes, but some get close to that.
