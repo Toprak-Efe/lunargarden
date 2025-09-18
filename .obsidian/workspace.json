@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spectral Oasis.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Spectral Oasis"
+              "title": "index"
             }
           }
         ]
@@ -153,9 +153,10 @@
   },
   "active": "fb7f96210028c0af",
   "lastOpenFiles": [
+    "Spectral Oasis.md",
+    "index.md",
     "Nightmarish Fever.md",
     "Seeting Wave.md",
-    "Spectral Oasis.md",
     "ROS2 in Archlinux with Distrobox.md",
     "Probability.md",
     "Untitled",
@@ -166,7 +167,6 @@
     "Linear Algebra.md",
     "Grace Gao - Robust Autonomous Vehicle Localization using GPS.md",
     "Graph Isomorphism via Discrete Quantum Walk.md",
-    "index.md",
     "Computer Networks.md",
     "Operating Systems.md",
     "Low Pass Filters.md",
