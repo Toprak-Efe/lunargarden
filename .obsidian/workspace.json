@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Numerical Methods.md",
+                "file": "Spectral Oasis.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Numerical Methods"
+              "title": "Spectral Oasis"
             }
           }
         ]
@@ -122,21 +122,6 @@
             }
           },
           {
-            "id": "4bfa9a6fa48c103e",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-tags",
-              "title": "Tags"
-            }
-          },
-          {
             "id": "04ceda3c3fc310cc",
             "type": "leaf",
             "state": {
@@ -161,10 +146,6 @@
   "left-ribbon": {
     "hiddenItems": {
       "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
       "obsidian-git:Open Git source control": false
@@ -172,17 +153,22 @@
   },
   "active": "fb7f96210028c0af",
   "lastOpenFiles": [
+    "Nightmarish Fever.md",
+    "Seeting Wave.md",
+    "Spectral Oasis.md",
+    "ROS2 in Archlinux with Distrobox.md",
+    "Probability.md",
+    "Untitled",
+    "Semiconductor Devices and Analog Electronics.md",
+    "Wavelets.md",
+    "Algorithm Analysis.md",
+    "Numerical Methods.md",
     "Linear Algebra.md",
     "Grace Gao - Robust Autonomous Vehicle Localization using GPS.md",
     "Graph Isomorphism via Discrete Quantum Walk.md",
     "index.md",
-    "Algorithm Analysis.md",
     "Computer Networks.md",
-    "Semiconductor Devices and Analog Electronics.md",
-    "Wavelets.md",
-    "Probability.md",
     "Operating Systems.md",
-    "Numerical Methods.md",
     "Low Pass Filters.md",
     "HeapGraph.canvas",
     "Foxhunt Amateur Radio Hunt.md",
