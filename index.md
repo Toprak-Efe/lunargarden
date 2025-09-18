@@ -1,4 +1,4 @@
-# Blog
+# Home
 
 > Write with blood, and thou wilt find that blood is spirit.
 
