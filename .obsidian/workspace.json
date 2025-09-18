@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Website.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Website"
+              "title": "index"
             }
           }
         ]
@@ -151,10 +151,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fb7f96210028c0af",
+  "active": "0dd0a86089931e60",
   "lastOpenFiles": [
     "Oasis.md",
-    "Website.md",
+    "index.md",
     "Wave.md",
     "Fever.md",
     "ROS2 in Archlinux with Distrobox.md",
