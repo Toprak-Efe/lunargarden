@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
-                "mode": "source",
+                "file": "Thoughts/Glass.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "Glass"
             }
           }
         ],
@@ -183,11 +183,12 @@
   "active": "04ac7147a03d62f6",
   "lastOpenFiles": [
     "Thoughts/Oasis.md",
-    "Thoughts/Fever.md",
     "Thoughts/Wave.md",
+    "Thoughts/Glass.md",
+    "index.md",
+    "Thoughts/Fever.md",
     "Thoughts",
     "Untitled.base",
-    "index.md",
     "ROS2 in Archlinux with Distrobox.md",
     "Probability.md",
     "Semiconductor Devices and Analog Electronics.md",
