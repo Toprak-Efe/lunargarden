@@ -4,53 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "bc293efe70c13246",
+        "id": "7fc0cfe83865b21a",
         "type": "tabs",
         "children": [
           {
-            "id": "fb7f96210028c0af",
+            "id": "f01d7b215af48512",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Thoughts/Fever.md",
+                "file": "Thoughts/Wave.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Fever"
-            }
-          },
-          {
-            "id": "ea04b288bd768a5f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Thoughts/Oasis.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Oasis"
-            }
-          },
-          {
-            "id": "04ac7147a03d62f6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Thoughts/Glass.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Glass"
+              "title": "Wave"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -180,13 +151,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "04ac7147a03d62f6",
+  "active": "f01d7b215af48512",
   "lastOpenFiles": [
-    "Thoughts/Oasis.md",
-    "Thoughts/Wave.md",
-    "Thoughts/Glass.md",
     "index.md",
     "Thoughts/Fever.md",
+    "Thoughts/Oasis.md",
+    "Thoughts/Glass.md",
+    "Thoughts/Wave.md",
     "Thoughts",
     "Untitled.base",
     "ROS2 in Archlinux with Distrobox.md",
